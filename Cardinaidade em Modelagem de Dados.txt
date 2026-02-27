@@ -1,0 +1,22 @@
+Cardinaidade em Modelagem de Dados
+
+O que é Cardinalidade? 
+
+Cardinalidade define quantas instâncias de uma entidade podem estar associadas a instancias de outra entidade dentro de um modelo de dados relacional.
+
+Qual a importância da Cardinalidade
+ Definir a cardinalidade errada pode causar dados duplicados.
+
+Conceito 1:1(necessário uma unique e 1 FK)
+Um registro na tabela A se relaciona na tabela B e vice-versa, ex: CPF cada cidadao possui um CPF, a cada CPF pertence a exetamente um cidadão.
+
+conceito 1:N - Um para muitos
+
+Um registro na tabela A pode esta associado a vários registros na Tabela B
+
+A Chave Estrangeira: Onde ela Mora?
+
+ Regra absoluta o relacionamento 1:N : a FK sempre vive no lado N(Muitos)
+
+Conceito N:N
+ Vários registros da tabela A podem se relacionar com a tabela B e vice-versa.
